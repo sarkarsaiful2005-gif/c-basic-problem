@@ -9,7 +9,6 @@ int main()
     scanf("%s",p);
     printf("\n");
     do{
-        printf("Enter your passward:");
         scanf("%s",r);
         if(strcmp(p,r)==0)
         {
@@ -19,6 +18,7 @@ int main()
         else
         {
             printf("WORNG PASSWORD\n");
+         printf("try again:");
         }
     }while(1);
     return 0;
