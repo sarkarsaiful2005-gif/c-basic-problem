@@ -54,18 +54,3 @@ int main(){
         printf("%d ",array3[i]);
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
